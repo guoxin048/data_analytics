@@ -2,8 +2,8 @@
 create table videos(
 ID serial primary key,
 Title varchar(200)unique not null,
-Length varchar(200),not null,
-URL varchar(200),unique not null));
+Length varchar(200) not null,
+URL varchar(200) unique not null));
 
 --Populate the "videos" table.
 
