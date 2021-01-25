@@ -33,4 +33,4 @@ select * from reviewers;
 --Report on Video Reviews.
 
 select * from videos
-inner join Reviewers on reviewers.id=videos.id;
+full outer join Reviewers on reviewers.id=videos.id;
